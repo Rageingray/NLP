@@ -22,7 +22,7 @@ def write_to_file(data, filename):
             file.write(f"{item}\n")
 
 def process_files(input_path):
-    with open(r"C:\Users\arshb\OneDrive\Desktop\sub\SEM VI\NLP\lab 2\Input.txt") as file:
+    with open(r".\Input.txt") as file:
         input_text = file.read()
 
     sentences, tokens, filtered_tokens, stemmed_tokens, lemmatized_tokens, pos_tags = process_text(input_text)
