@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-file_path = r"C:\Users\arshb\OneDrive\Desktop\sub\SEM VI\NLP\lab 1\employees.csv"  # Replace with the actual path to your CSV file
+file_path = r".\employees.csv"  # Replace with the actual path to your CSV file
 df = pd.read_csv(file_path)
 
 print(df.head(10))
